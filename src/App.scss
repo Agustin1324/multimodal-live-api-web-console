@@ -1,18 +1,18 @@
 :root {
-  --text: white;
-  --gray-200: #b4b8bb;
-  --gray-300: #80868b;
-  --gray-500: #5f6368;
-  --gray-600: #444444;
-  --gray-700: #202020;
-  --gray-800: #171717;
-  --gray-900: #111111;
-  --gray-1000: #0a0a0a;
-  --border-stroke: #444444;
+  --text: #1c1f21;
+  --gray-200: #5f6368;
+  --gray-300: #707577;
+  --gray-500: #b4b8bb;
+  --gray-600: #c3c6c7;
+  --gray-700: #e1e2e3;
+  --gray-800: #f0f0f0;
+  --gray-900: #ffffff;
+  --gray-1000: #ffffff;
+  --border-stroke: #c3c6c7;
   --accent-blue: rgb(161, 228, 242);
-  --accent-blue-active-bg: #001233;
-  --accent-blue-active: #98beff;
-  --accent-blue-headers: #448dff;
+    --accent-blue-active-bg: #99beff;
+  --accent-blue-active: #001233;
+  --accent-blue-headers: #0f3557;
   --accent-green: rgb(168, 218, 181);
 
   --midnight-blue: rgb(0, 18, 51);
@@ -20,7 +20,7 @@
 
   --accent-red: #ff4600;
 
-  --background: var(--gray-900);
+  --background: var(--gray-1000);
   --color: var(--text);
 
   scrollbar-color: var(--gray-600) var(--gray-900);
@@ -54,7 +54,7 @@
 
 body {
   font-family: "Space Mono", monospace;
-  background: var(--Neutral-30);
+  background: var(--Neutral-90);
 }
 
 .material-symbols-outlined {
@@ -114,8 +114,8 @@ body {
 @media (prefers-reduced-motion: no-preference) {}
 
 .streaming-console {
-  background: var(--Neutral-5);
-  color: var(--gray-300);
+  background: var(--Neutral-90);
+  color: var(--gray-700);
   display: flex;
   height: 100vh;
   width: 100vw;
@@ -123,7 +123,7 @@ body {
   a,
   a:visited,
   a:active {
-    color: var(--gray-300);
+    color: var(--gray-700);
   }
 
   .disabled {

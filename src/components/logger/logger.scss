@@ -1,5 +1,5 @@
 .logger {
-  color: var(--gray-300);
+  color: var(--gray-700);
   width: 100%;
   max-width: 100%;
   display: block;
@@ -43,10 +43,10 @@
     }
 
     .part {
-      background: var(--Neutral-5);
+      background: var(--Neutral-80);
       padding: 14px;
       margin-bottom: 4px;
-      color: var(--Neutral-90);
+      color: var(--Neutral-10);
       border-radius: 8px;
     }
   }
@@ -69,7 +69,7 @@
 .logger li {
   display: block;
   padding: 8px 0;
-  color: var(--Neutral-50, #707577);
+  color: var(--Neutral-50);
   font-family: "Space Mono";
   font-size: 14px;
   font-style: normal;
@@ -81,7 +81,7 @@
   width: 70px;
   flex-grow: 0;
   flex-shrink: 0;
-  color: var(--Neutral-50);
+  color: var(--Neutral-60);
 }
 
 .logger li .source {
@@ -112,5 +112,5 @@
 
 .logger li .message {
   flex-grow: 1;
-  color: var(--Neutral-50);
+  color: var(--Neutral-60);
 }

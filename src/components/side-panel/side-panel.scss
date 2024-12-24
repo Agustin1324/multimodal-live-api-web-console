@@ -1,7 +1,7 @@
 .side-panel {
   .react-select {
-    background: var(--Neutral-20);
-    color: var(--Neutral-90);
+    background: var(--Neutral-80);
+    color: var(--Neutral-10);
     width: 193px;
     height: 30px;
 
@@ -10,8 +10,8 @@
     }
 
     .react-select__menu {
-      background: var(--Neutral-20);
-      color: var(--Neutral-90);
+      background: var(--Neutral-80);
+      color: var(--Neutral-10);
     }
 
     .react-select__option {
@@ -23,13 +23,13 @@
     .react-select__option:hover,
     .react-select__option:focus,
     .react-select_option:focus-within {
-      background: var(--Neutral-30);
+      background: var(--Neutral-70);
     }
     .react-select__option--is-focused: {
-      background: var(--Neutral-30);
+      background: var(--Neutral-70);
     }
   }
-  background: var(--Neutral-00);
+  background: var(--Neutral-90);
   width: 40px; /* when closed */
   display: flex;
   flex-direction: column;
@@ -37,7 +37,7 @@
   transition: all 0.2s ease-in;
   font-family: Arial, sans-serif;
   border-right: 1px solid var(--gray-600);
-  color: var(--Neutral-90, #e1e2e3);
+  color: var(--Neutral-10);
   font-family: var(--font-family);
   font-size: 13px;
   font-style: normal;
@@ -68,7 +68,7 @@
 
     h2 {
       position: relative;
-      color: var(--Neutral-90, #e1e2e3);
+      color: var(--Neutral-10);
       font-family: "Google Sans";
       font-size: 21px;
       font-style: normal;
@@ -128,8 +128,8 @@
     .streaming-indicator {
       user-select: none;
       border-radius: 4px;
-      border: 1px solid var(--Neutral-20, #2a2f31);
-      background: var(--Neutral-10, #1c1f21);
+      border: 1px solid var(--Neutral-70);
+      background: var(--Neutral-80);
       display: flex;
       width: 136px;
       height: 30px;
@@ -165,14 +165,14 @@
     height: 50px;
     flex-grow: 0;
     flex-shrink: 0;
-    border-top: 1px solid var(--Neutral-20);
+    border-top: 1px solid var(--Neutral-70);
     padding: 14px 25px;
     overflow: hidden;
 
     .input-content {
       position: relative;
-      background: var(--Neutral-10);
-      border: 1px solid var(--Neutral-15);
+      background: var(--Neutral-80);
+      border: 1px solid var(--Neutral-70);
       height: 22px;
       border-radius: 10px;
       padding: 11px 18px;
@@ -184,7 +184,7 @@
         transform: translate(0, -50%);
         background: none;
         border: 0;
-        color: var(--Neutral-20);
+        color: var(--Neutral-70);
         cursor: pointer;
         transition: color 0.1s ease-in;
         z-index: 2;
@@ -196,7 +196,7 @@
 
       .input-area {
         background: none;
-        color: var(--Neutral-90);
+        color: var(--Neutral-10);
         field-sizing: content;
         position: absolute;
         top: 0;

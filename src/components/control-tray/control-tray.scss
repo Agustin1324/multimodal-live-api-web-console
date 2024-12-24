@@ -2,7 +2,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  color: var(--Neutral-90);
+  color: black;
   font-size: 1.25rem;
   line-height: 1.75rem;
   text-transform: lowercase;
@@ -32,13 +32,6 @@
     border: 1px solid var(--Neutral-30);
   }
 
-  &.connected {
-    color: var(--Neutral-5);
-
-    &:hover {
-        background: var(--Blue-200);
-      border: 1px solid var(--Blue-200);
-    }
   }
 }
 
@@ -58,16 +51,11 @@
 .mic-button {
   position: relative;
   z-index: 1;
-  color: var(--Neutral-90);
   transition: all 0.2s ease-in;
 
   &:focus {
     border: 2px solid var(--Neutral-30);
     outline: 2px solid var(--Red-500);
-  }
-
-  &:hover {
-    background-color: var(--Red-200);
   }
 
   &:before {
@@ -92,8 +80,6 @@
     outline: 2px solid var(--Neutral-80);
   }
 
-  &:not(.connected) {
-    color: var(--Blue-600);
   }
 }
 

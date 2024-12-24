@@ -2,7 +2,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  color: var(--Neutral-90);
+  color: #000 !important;
   font-size: 1.25rem;
   line-height: 1.75rem;
   text-transform: lowercase;
@@ -11,13 +11,13 @@
   width: 48px;
   height: 48px;
   border-radius: 18px;
-  border: 1px solid rgba(0, 0, 0, 0);
+  border: 0.25px solid transparent;
   user-select: none;
   cursor: pointer;
 
   &:focus {
-    border: 2px solid var(--Neutral-20);
-    outline: 2px solid var(--Neutral-80);
+    border: 0.5px solid var(--Neutral-20);
+    outline: 0.5px solid var(--Neutral-80);
   }
     &.outlined {
     border: 1px solid var(--Neutral-30);
@@ -28,8 +28,8 @@
   }
 
   &:hover {
-    background: var(--Neutral-10);
-    border: 1px solid var(--Neutral-30);
+    background: none;
+    border: 0.5px solid var(--Neutral-30);
   }
 }
 
@@ -95,7 +95,7 @@
 
   .disabled .action-button,
   .action-button.disabled {
-    background: var(--Neutral-5);
+    background: none;
     border: 1px solid var(--Neutral-30);
     color: var(--Neutral-40);
   }
@@ -109,21 +109,13 @@
 
     .connection-button-container {
       border-radius: 27px;
-      border: 1px solid var(--Neutral-30);
+      border: 0.5px solid var(--Neutral-30);
       padding: 10px;
       background: var(--Neutral-5);
     }
 
     .text-indicator {
-      font-size: 11px;
-      color: var(--Blue-500);
-      user-select: none;
-    }
-
-    &:not(.connected) {
-      .text-indicator {
-        opacity: 0;
-      }
+      display: none; // Changed from opacity handling to display:none
     }
   }
 }
